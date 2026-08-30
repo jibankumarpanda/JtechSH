@@ -1,0 +1,10 @@
+# Never commit user-level config, credentials, history, or logs
+.jtechsh/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editor noise
+.DS_Store
+*.swp
