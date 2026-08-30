@@ -42,7 +42,7 @@ jtechsh::dispatch() {
     # 3. Reserved category keywords (stubs for future phases;
     #    present now so the top-level command surface is stable).
     case "$cmd" in
-        google|automation|agent|schedule|security|audit|sandbox|config|plugin|update|doctor|ai|run|script|process|service)
+        google|automation|agent|schedule|security|audit|sandbox|config|plugin|update|doctor|ai|run|script|process|service|triage)
             echo "jtechsh: '$cmd' is planned but not yet implemented in v${JTECHSH_VERSION}." >&2
             echo "          See docs/ROADMAP.md for when it lands." >&2
             return 127

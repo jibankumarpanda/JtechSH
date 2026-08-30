@@ -1,10 +1,22 @@
 # Never commit user-level config, credentials, history, or logs
+.config/jtechsh/
 .jtechsh/
 *.log
 *.db
 *.sqlite
 *.sqlite3
 
+# Secrets and credentials — NEVER committed
+.env
+*.env
+credentials
+*.secret
+
 # OS / editor noise
 .DS_Store
 *.swp
+*~
+
+# Dependencies
+node_modules/
+__pycache__/
