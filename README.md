@@ -57,20 +57,27 @@ jtech> cd test
 
 ```text
 JtechSH/
-├── bin/jtechsh          Entry point
-├── src/core/            Shell loop, dispatcher, builtins, config (v0.1)
-├── src/commands/        Reserved for future built-in command modules
-├── src/automation/      Reserved: automation engine            (v0.4)
-├── src/google/          Reserved: gogcli adapter                (v0.3)
-├── src/openclaw/        Reserved: OpenClaw agent adapter         (v0.5)
-├── src/security/        Reserved: risk detection / approvals    (v0.7)
-├── src/scheduler/       Reserved: cron/systemd integration      (v0.4)
-├── src/audit/           Reserved: SQLite audit layer            (v0.2)
-├── config/jtechsh.conf  Tracked defaults (no secrets, ever)
-├── scripts/             Dev/maintenance scripts
-├── tests/               Test suite
-├── docs/                ROADMAP.md, ARCHITECTURE.md, etc.
-└── plugins/             Reserved: plugin system                 (v0.9)
+├── bin/jtechsh              Entry point
+├── src/core/                Shell loop, dispatcher, builtins, config (v0.1)
+├── src/triage/              Reserved: triage modules (v0.6)
+├── openclaw/
+│   ├── blockdigest/         Daily block digest agent
+│   └── clawblocker/         Twitter + email triage agents
+│       ├── jobs/            Job runbooks for OpenClaw agents
+│       ├── skills/          Agent skill definitions
+│       └── state/           Runtime state JSON files
+├── config/jtechsh.conf      Tracked defaults (no secrets, ever)
+├── docs/                    ROADMAP.md, ARCHITECTURE.md, etc.
+├── plugins/                 Reserved: plugin system (v0.9)
+├── scripts/                 Dev/maintenance scripts
+├── tests/                   Test suite
+├── conferences.md           Conference triage rules
+├── EMAILRULES.md            Email triage rules
+├── emails-manual.md         Email manual procedures
+├── TWITTER_MENTIONS.md      Twitter mention rules
+├── TWITTER_REPLIES.md       Twitter reply rules
+├── jtechsh_system_prompt.md System prompt for JtechSH
+└── README.md                This file
 ```
 
 ## Design principles
