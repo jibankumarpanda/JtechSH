@@ -5,7 +5,7 @@ Manual tracking and rules for Twitter/X reply triage.
 ## Reply Priority
 
 ### High Priority
-- Direct questions about JtechSH
+- Direct questions about Triger.sh
 - Bug reports
 - Security-related mentions
 

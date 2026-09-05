@@ -30,7 +30,7 @@ Remove tweets already in `reportedTweetIds` or `resolvedTweetIds` from state.
 
 Score each remaining mention:
 
-- **Direct question about JtechSH** → high priority
+- **Direct question about Triger.sh** → high priority
 - **Bug report** → high priority
 - **Feature request** → medium priority
 - **General mention / retweet** → low priority

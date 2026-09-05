@@ -12,7 +12,7 @@ Manual tracking and rules for Twitter/X mention moderation.
 
 ### Keep
 - Genuine bug reports
-- Genuine questions about JtechSH
+- Genuine questions about Triger.sh
 - Feature requests
 - Constructive feedback
 

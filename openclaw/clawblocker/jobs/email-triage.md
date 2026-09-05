@@ -1,4 +1,4 @@
-# JtechSH Email Triage Job
+# Triger.sh Email Triage Job
 
 **Frequency:** Every 3 hours, at :05 past
 **Agent:** jtechsh
@@ -14,7 +14,7 @@ This job scans your Gmail inbox, archives junk mail, and surfaces real mail that
 ### 1. Read Rules and State
 
 ```bash
-# Read JtechSH rules
+# Read Triger.sh rules
 cat ./jtechsh/EMAILRULES.md
 
 # Read current state
